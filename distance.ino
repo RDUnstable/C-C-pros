@@ -186,12 +186,12 @@ void printStop(){
       //delay(1000);
      // lcd.setCursor(8,0);
      // lcd.print("Obstacle");
-      /*lcd.setCursor(8,1);
+      lcd.setCursor(8,1);
       lcd.print(distance);
       lcd.setCursor(14,1);
       lcd.print("cm");*/
       
-      /*if(distance<40)
+     if(distance<40)
       {
         lcd.setCursor(8,1);
         lcd.print(distance);
@@ -203,7 +203,7 @@ void printStop(){
         lcd.print("");
         delay(100);
         lcd.print("Warning");
-      }*/
+      }
             
       lcd.clear();
         char c = Serial.read();
